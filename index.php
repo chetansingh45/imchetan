@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Chetan Singh Full Stack Developer">
+    <meta name="author" content="Chetan Singh Full Stack Developer">
 
     <title>Chetan Singh</title>
 
@@ -264,14 +264,16 @@
             <div class="contact-form">
               <h2 class="mb-4">Interested to work together? Let's talk</h2>
 
-              <form action="" method="get">
+              <div class="alert alert-warning success_msg d-none">Thankyou I'll get back to you.</div>
+
+              <form action="" method="post" id="contact_form">
                 <div class="row">
                   <div class="col-lg-6 col-12">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                    <input type="text" class="form-control" name="name" required placeholder="Your Name" id="name">
                   </div>
 
                   <div class="col-lg-6 col-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                    <input type="email" class="form-control" name="email" required placeholder="Email" id="email">
                   </div>
 
                   <div class="col-12">
@@ -279,7 +281,7 @@
                   </div>
 
                   <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                    <button type="submit" class="form-control submit-btn">Send</button>
                   </div>
                 </div>
               </form>
@@ -311,6 +313,6 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
-
+    <script src="js/index.js"></script>
   </body>
 </html>
